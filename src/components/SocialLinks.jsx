@@ -27,7 +27,7 @@ const SocialLinks = () => {
         {
             id:4,
             name:"Resume",
-            link:"/Neelesh'sResume.pdf",
+            link:"/NeeleshResume.pdf",
             logo:<BsFillPersonLinesFill size={30}/>,
             download:true
         }
