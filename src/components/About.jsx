@@ -13,19 +13,21 @@ const About = () => {
 					</p>
 				</div>
 
-				<p className="text-xl mt-20 ">
-					Hello! I am a dedicated and passionate front-end developer . My
-					expertise lies in crafting dynamic and responsive user interfaces
-					using ReactJS, JavaScript, and Redux. I have hands-on experience with
-					Firebase for database management.My proficiency extends to front-end
-					styling, where I am skilled in HTML5 and CSS3, and have expertise in
-					popular frameworks like TailwindCSS, Material-UI, and Styled
-					Components. In addition, I am adept at utilizing Postman for API
-					testing, ensuring the robustness and reliability of the applications I
-					develop. My passion for staying current with industry trends and
-					technologies keeps me excited about delivering cutting-edge
-					solutions.Looking forward to contributing my skills and creativity to
-					exciting projects and pushing the boundaries of front-end development.
+				<p className="text-xl  ">
+
+<p>
+As a dedicated front-end and back-end developer, I specialize in crafting dynamic and responsive web applications that deliver seamless user experiences. With expertise in <b>ReactJS</b>, JavaScript, and <b>Redux-Toolkit</b>, I bring modern interfaces to life. My front-end skills extend to styling with <b>HTML5</b>, <b>CSS3</b>, and frameworks like <b>TailwindCSS</b>, <b>Material-UI</b>.
+</p>
+<br/>
+<p>
+On the back-end, I am proficient in <b>Node.js</b> and <b>Express</b>, building robust server-side applications that integrate seamlessly with <b>MongoDB</b> for efficient database management. My hands-on experience with <b>Firebase</b> further enhances my ability to manage and scale databases across both front-end and back-end environments.
+</p>
+<br/>
+<p>I am also skilled in API testing using <b>Postman</b>, ensuring that the applications I develop are reliable and secure. My passion for staying up-to-date with industry trends keeps me excited about delivering cutting-edge solutions.</p>
+<br/>
+<p>I look forward to contributing my full-stack expertise, creativity, and problem-solving skills to exciting projects, continuously pushing the boundaries of web development.</p>
+
+
 				</p>
 			</div>
 		</div>

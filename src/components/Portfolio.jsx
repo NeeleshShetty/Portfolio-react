@@ -5,28 +5,32 @@ const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+            src:"/merneats.png",
+            demo:"https://foodorder-frontend-fhlh.onrender.com/",
+            code:"https://github.com/NeeleshShetty/Ecommerce-MERN-stack"
         },
         {
             id:2,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+            src:"/ecommerce.png",
+            demo:"https://ecommerce-mern-stack-i8u9.onrender.com/",
+            code:"https://github.com/NeeleshShetty/Ecommerce-MERN-stack"
         },
-        {
-            id:3,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
-        },
-        {
-            id:4,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
-        },
-        {
-            id:5,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
-        },
-        {
-            id:6,
-            src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
-        },
+        // {
+        //     id:3,
+        //     src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+        // },
+        // {
+        //     id:4,
+        //     src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+        // },
+        // {
+        //     id:5,
+        //     src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+        // },
+        // {
+        //     id:6,
+        //     src:"https://opengraph.githubassets.com/556a08ee4a8656b974ef62f79834480d50666e3caf7939ca2969b7c938c43521/Ayushparikh-code/Web-dev-mini-projects"
+        // },
 
 
     ]
@@ -40,12 +44,12 @@ const Portfolio = () => {
                 <p className='py-6'>Check out my work here...</p>
             </div>
             <div className='grid sm:grid-col-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ' >
-               {portfolios.map(({id,src})=>(
+               {portfolios.map(({id,src,demo,code})=>(
                 <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                     <img src={src} alt="img" className='rounded-md duration-200 hover:scale-105'/>
                     <div className='flex'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <a target='_blank' href={demo}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button></a>
+                        <a target='_blank' href={code}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                     </div>
                 </div>
                ))}
